@@ -218,3 +218,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+venv/
+guardrail.db
+__pycache__/
+
+# Local environment and secrets
+.env.*
+!.env.example
+
+# Local databases and database journals
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Local runtime files
+*.log
+*.pid
+
+# Backup files
+*.bak
+*.audit_backup
+*_backup.py
+
+# Local executables
+ngrok.exe
+
+# Python cache
+__pycache__/
+*.py[cod]
